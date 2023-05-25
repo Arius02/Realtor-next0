@@ -29,7 +29,7 @@ const PropertyDetails = ({propertyDetails}: PropertyDetails) => {
   }
 
   return (
-    <div className="container max-w-[1100px] mx-auto my-10  md:px-10 px-5">
+    <div className="container max-w-[1100px] mx-auto my-10  md:px-10 px-5 min-h-screen">
       <div className="relative z-10">
         <ImageScorollbar data={photos} />
       </div>

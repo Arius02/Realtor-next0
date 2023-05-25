@@ -18,7 +18,7 @@ const Home =  ({ propertiesForRent, propertiesForSale }: props) => {
     </div>
   }
 
-  return <div className='container mx-auto  max-w-[1200px] '>
+  return <div className='container mx-auto  max-w-[1200px] min-h-screen'>
     <Banner
       purpose='RENT A HOME'
       title1='Rental Homes for Everyone'

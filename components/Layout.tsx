@@ -11,7 +11,7 @@ export default function Layout({ children }: {
         <title>Real Estate</title>
       </Head>
         <div>
-        <header className='sticky top-0 '>
+        <header className='sticky top-0 z-50'>
           <nav >
           <Navbar />
           </nav>

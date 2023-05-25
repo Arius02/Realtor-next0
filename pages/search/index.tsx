@@ -16,7 +16,7 @@ type Props = {
 const Search = ({ properties }: Props) => {
   const [displayFilters, setDisplayFilters] = useState(false)
   if (!properties) {
-    return <div className='h-screen flex justify-center items-center flex-col'>
+    return <div className='h-screen flex justify-center items-center flex-col min-h-screen'>
       <h2 className='text-3xl dark:text-white text-primary-900'>Not Found :)</h2>
       <Link href="/" className='text-sm mt-2'>Back To Home</Link>
     </div>
