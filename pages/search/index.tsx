@@ -16,13 +16,13 @@ type Props = {
 const Search = ({ properties }: Props) => {
   const [displayFilters, setDisplayFilters] = useState(false)
   if (!properties) {
-    return <div className='h-screen flex justify-center items-center flex-col min-h-screen'>
+    return <div className='h-screen flex justify-center items-center flex-col '>
       <h2 className='text-3xl dark:text-white text-primary-900'>Not Found :)</h2>
       <Link href="/" className='text-sm mt-2'>Back To Home</Link>
     </div>
   }
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto min-h-screen">
       <div className="dark:bg-primary-500 bg-primary-200 dark:bg-opacity-[.9] bg-opacity-[.5] text-center p-2 border-b-[1px] dark:border-primary-200 border-primary-400">
         <div className='flex items-center justify-center cursor-pointer' onClick={() => setDisplayFilters(!displayFilters)}>
           <h2 className="font-bold text-lg dark:text-primary-300 text-primary-700  mr-3">Search Property By Filters</h2>

@@ -56,7 +56,6 @@ export const filterData = [
     items: [
       { name: 'Lowest Price', value: 'price-asc' },
       { name: 'Highest Price', value: 'price-des' },
-      { name: 'Newest', value: 'date-asc' },
       { name: 'Oldest', value: 'date-desc' },
       { name: 'Verified', value: 'verified-score' },
       { name: 'City Level Score', value: 'city-level-score' },
