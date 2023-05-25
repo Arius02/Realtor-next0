@@ -16,7 +16,7 @@ type Props = {
   },
   
 }
-
+// done
 const PropertyDetails = ({propertyDetails}: PropertyDetails) => {
   const { price, rentFrequency, rooms, title, baths,
     area, agency, isVerified, description, type, purpose,
